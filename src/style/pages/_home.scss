@@ -50,7 +50,7 @@
         font-size: 3.7rem;
         position: relative;
         font-family: $font-2;
-        color: $black;
+        color: $color-2;
 
         @media screen and (max-width: 650px){
           font-size: 2rem;
@@ -64,14 +64,15 @@
           position: absolute;
           height: 225px;
           width: 225px;
-          border-radius: 50%;
-          border: 1px $color-2 solid;
-          top: -40px;
-          left: -180px;
+          border-radius: 25%;
+          border: 1px #999191 solid;
+          top: -30px;
+          left: -124px;
           z-index: -1;
           animation: h1Anim 1.5s forwards ease;
           transform: scale(0);
 
+          
           @media screen and (max-width: 850px){
             height: 110px;
             width: 110px;

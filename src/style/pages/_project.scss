@@ -2,6 +2,7 @@
   position: absolute;
   height: 100vh;
   width: 100vw;
+  color: $color-2;
 
   &:after {
     content: "";
@@ -27,7 +28,7 @@
 
   .navigation {
     top: 5px;
-    left: 60%;
+    left: 80%;
     font-size: 1.1rem;
     line-height: 20px;
     transform: translateY(-100%);
@@ -53,6 +54,7 @@
       padding: 0 20px;
     }
   }
+  
   .logo {
     top: 10px;
     left: 50%;
@@ -95,10 +97,12 @@
       }
 
       h1 {
+        //Portfolio Imo999
         font-size: 3rem;
         margin-bottom: 12px;
-        font-family: $font-2;
-        color: $color-2;
+        font-family: $font-1;
+        color: $color-1;
+        font-weight: bold;
         transform: scaleX(0);
         animation: transformTitle 1.5s ease forwards;
         transform-origin: 150%;
@@ -116,9 +120,12 @@
           }
         }
       }
+
       p {
         margin-bottom: 30px;
-        color: $color-4;
+        //Avril 2021
+        color: $redRC;
+        font-weight: bold;
         font-size: 1.2rem;
 
         @media screen and (max-width: 700px){
@@ -129,14 +136,16 @@
         }
         
         &:after {
+          //Carré gauche
           content: "";
-          height: 340px;
-          width: 340px;
+          height: 280px;
+          width: 500px;
           background: $color-3;
-          border-radius: 50%;
+          border-radius: 25%;
+          
           position: absolute;
-          top: -28px;
-          left: 70px;
+          top: -50px;
+          left: 170px;
           z-index: -10;
 
           @media screen and (max-width: 810px){
@@ -146,6 +155,7 @@
           }
         }
       }
+      
       li {
         font-size: 1.5rem;
 
@@ -157,10 +167,11 @@
         }
       }
     }
+    
     .img-content {
       position: relative;
       text-align: left;
-      margin-left: 10px;
+      margin-left: 20%;
 
       @media screen and (max-width: 700px){
         text-align: center;
@@ -170,10 +181,13 @@
       .img-container {
         border-radius: 5px;
         box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
+        margin-top: 150px;
         width: 600px;
-        height: 380px;
+        height: 300px;
         overflow: hidden;
         position: relative;
+        box-shadow: 6px 6px 0px $color-2;
+
 
         @media screen and (max-width: 940px){
           height: 300px;
@@ -249,14 +263,14 @@
 
         &:hover {
           color: $color-2;
-          background: $color-3;
+          background: $color-7;
         }
       }
     }
   }
   .random-circle {
     position: absolute;
-    height: 400px;
+    height: 5000px;
     width: 400px;
     background: $color-3;
     border-radius: 50%;

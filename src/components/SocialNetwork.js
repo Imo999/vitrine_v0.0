@@ -17,11 +17,7 @@ const SocialNetwork = () => {
         link.style.transform = ``
       })
     })
-
-
-
   }
-
   // import icone
   return (
     <div className="social-network">
