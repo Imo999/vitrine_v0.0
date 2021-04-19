@@ -101,7 +101,7 @@
         font-size: 3rem;
         margin-bottom: 12px;
         font-family: $font-1;
-        color: $color-1;
+        color: $color-11;
         font-weight: bold;
         transform: scaleX(0);
         animation: transformTitle 1.5s ease forwards;
@@ -138,14 +138,14 @@
         &:after {
           //Carré gauche
           content: "";
-          height: 280px;
-          width: 500px;
+          height: 370px;
+          width: 600px;
           background: $color-3;
           border-radius: 25%;
           
           position: absolute;
           top: -50px;
-          left: 170px;
+          left: 40px;
           z-index: -10;
 
           @media screen and (max-width: 810px){
@@ -263,7 +263,7 @@
 
         &:hover {
           color: $color-2;
-          background: $color-7;
+          background: $color-11;
         }
       }
     }

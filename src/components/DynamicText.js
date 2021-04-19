@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 
 const DynamicText = () => {
-  let array = ["Future !!"];
+  let array = ["Future !!", "BlockChain !!", "Moon !!"];
   let wordIndex = 0;
   let letterIndex = 0;
 

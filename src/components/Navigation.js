@@ -23,13 +23,13 @@ const Navigation = () => {
               <li>prog-check-load_v0.0</li>
             </NavLink>
             <NavLink to="/project-3" activeClassName="nav-active" className="hover">
-              <li>Project 3</li>
+              <li>ImoBot-discord</li>
             </NavLink>
             <NavLink to="/project-4" activeClassName="nav-active" className="hover">
-              <li>Project 4</li>
+              <li>Magic 8-Ball</li>
             </NavLink>
             <NavLink to="/project-5" activeClassName="nav-active" className="hover">
-              <li>Project 5</li>
+              <li>SARAHRO, SRO</li>
             </NavLink>
           </ul>
         </li>
