@@ -37,10 +37,10 @@ export const projectsData = [
     title: " Magic 8-Ball",
     date: "Mars 2021",
     languages: ["NodeJS", "JavaScript"],
-    paraGraphe: "Coming Soon",
+    paraGraphe: "This game is the Magic 8-Ball => https://en.wikipedia.org/wiki/Magic_8-Ball.",
     infos:
       "“Anyone who stops learning is old, whether at twenty or eighty.” - Henry Ford -",
-    img: "./assets/img/comingSoon.png",
+    img: "./assets/img/8ball.png",
     link: "https://github.com/Imo999/eightball-game_v0.0",
   },
   {

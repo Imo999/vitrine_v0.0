@@ -8,14 +8,14 @@ const ContactInfo = () => {
       <div className="address">
         <div className="content">
           <h4>Adresse</h4>
-          <p>3 rue des Hugeunots</p>
-          <p>89330 - St Julien du Sault</p>
+          <p>Rue de Paris</p>
+          <p>91120 - Palaiseau</p>
         </div>
       </div>
       <div className="phone">
         <div className="content">
           <h4>Phone</h4>
-          <CopyToClipboard text="33645253049" className="hover">
+          <CopyToClipboard text="33767189809" className="hover">
             <p
               style={{ cursor: 'pointer' }}
               className="clipboard"
@@ -23,7 +23,7 @@ const ContactInfo = () => {
                 alert("Phone copied !");
               }}
             >
-              +33 06 45 25 30 49
+              +33 7 67 18 98 09
                 </p>
           </CopyToClipboard>
         </div>
