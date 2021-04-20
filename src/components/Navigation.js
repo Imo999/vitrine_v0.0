@@ -8,9 +8,6 @@ const Navigation = () => {
         <NavLink to="/" exact className="hover" activeClassName="nav-active">
           <li>Home</li>
         </NavLink>
-        <NavLink to="/about" exact className="hover" activeClassName="nav-active">
-          <li>About</li>
-        </NavLink>
         <li className="nav-portfolio">Project
           <ul className="nav-projects">
             <NavLink to="/project-1" activeClassName="nav-active" className="hover">
