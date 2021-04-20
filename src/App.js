@@ -8,7 +8,7 @@ import { AnimatePresence } from 'framer-motion'
 // Import des page dans APP
 
 const App = () => {
-  const location = useLocation();
+  const location = useLocation()
   const history = useHistory()
 
   //Scroll Effect

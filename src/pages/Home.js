@@ -3,7 +3,6 @@ import Navigation from '../components/Navigation'
 import SocialNetwork from '../components/SocialNetwork'
 import DynamicText from '../components/DynamicText'
 import ButtonsBottom from '../components/ButtonsBottom'
-import Mouse from '../components/Mouse'
 
 const Home = () => {
 

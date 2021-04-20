@@ -1,10 +1,10 @@
 
 import React, { useEffect } from "react";
+let wordIndex = 0;
+let letterIndex = 0;
+let array = ["Future !!", "BlockChain !!", "Moon !!"];
 
 const DynamicText = () => {
-  let array = ["Future !!", "BlockChain !!", "Moon !!"];
-  let wordIndex = 0;
-  let letterIndex = 0;
 
   useEffect(() => {
     const target = document.getElementById("text-target");
