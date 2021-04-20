@@ -1,9 +1,13 @@
 ## Portfolio Imo999
 
+# ![project-1](./public/assets/img/projet-1.jpg)
 
-***Start projet*** : 18/04/2021
-- Conception de la structure - Réact 
-- Début de projection pour le projet (voir dossier Photos sur GitHub lien ci-dessous)
+
+***Projet Vitrine_v0.0*** 
+Version v0.0 </br>
+Author : Imo999 </br>
+Date : 04/20/2021 </br>
+
 
 
 ***Update n°1*** : 
