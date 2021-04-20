@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation'
 import ButtonsBottom from '../components/ButtonsBottom'
 import ContactInfo from '../components/ContactInfo'
 import { motion } from "framer-motion";
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
 
@@ -36,6 +37,9 @@ const Contact = () => {
       >
         <div>
           <Navigation />
+          <div>
+            <ContactForm />
+          </div>
           <div>
             <ContactInfo />
           </div>

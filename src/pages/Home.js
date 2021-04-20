@@ -6,10 +6,10 @@ import ButtonsBottom from '../components/ButtonsBottom'
 import Mouse from '../components/Mouse'
 
 const Home = () => {
+
   return (
     <div>
       <div className="home">
-
         <Navigation />
         <SocialNetwork />
         <div className='home-main'>

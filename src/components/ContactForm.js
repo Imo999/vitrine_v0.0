@@ -48,7 +48,7 @@ const ContactForm = () => {
         message,
       });
     } else {
-      formMess.innerHTML = "Merci de remplir correctement les champs requis *";
+      formMess.innerHTML = "Please fill in the required fields correctly *.";
       formMess.style.background = "rgb(253, 87, 87)";
       formMess.style.opacity = "1";
 
@@ -71,7 +71,7 @@ const ContactForm = () => {
       .send("gmail", templateId, variables)
       .then((res) => {
         formMess.innerHTML =
-          "Message envoyé ! Nous vous recontacterons dès que possible.";
+          "Message sent! We will contact you as soon as possible.";
         formMess.style.background = "#00c1ec";
         formMess.style.opacity = "1";
 
@@ -91,13 +91,13 @@ const ContactForm = () => {
       .catch(
         (err) =>
         (formMess.innerHTML =
-          "Une erreur s'est produite, veuillez réessayer.")
+          "An error has occurred, please try again.")
       );
   };
 
   return (
     <form className="contact-form">
-      <h2>contactez-nous</h2>
+      <h2>Contact</h2>
       <div className="form-content">
         <input
           type="text"
@@ -105,7 +105,7 @@ const ContactForm = () => {
           name="name"
           required
           onChange={(e) => setName(e.target.value)}
-          placeholder="nom *"
+          placeholder="name *"
           value={name}
         />
         <input
@@ -113,7 +113,7 @@ const ContactForm = () => {
           id="company"
           name="company"
           onChange={(e) => setCompany(e.target.value)}
-          placeholder="société"
+          placeholder="company"
           value={company}
         />
         <input
@@ -121,11 +121,11 @@ const ContactForm = () => {
           id="phone"
           name="phone"
           onChange={(e) => setPhone(e.target.value)}
-          placeholder="téléphone"
+          placeholder="phone"
           value={phone}
         />
         <div className="email-content">
-          <label id="not-mail">Email non valide</label>
+          <label id="not-mail">Invalid email</label>
           <input
             type="mail"
             id="email"
@@ -148,9 +148,11 @@ const ContactForm = () => {
       <input
         className="button hover"
         type="submit"
-        value="envoyer"
+        value="Submit"
         onClick={handleSubmit}
       />
+      <p>“Build your own dreams or someone else will hire you to build theirs.” </p>
+      <p>- Farrah Gray -</p>
       <div className="form-message"></div>
     </form>
   );
