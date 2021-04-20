@@ -3,6 +3,8 @@
   height: 100vh;
   width: 100vw;
   color: $color-2;
+  background-color: $imo1;
+  z-index: 0;
 
   &:after {
     content: "";
@@ -46,7 +48,7 @@
 
     &:before {
       left: -120px;
-      top: -250px;
+      top: -160px;
     }
 
     .nav-projects {
@@ -100,12 +102,13 @@
         //Portfolio Imo999
         font-size: 3rem;
         margin-bottom: 12px;
-        font-family: $font-1;
-        color: $color-11;
+        font-family: 'Days One', sans-serif;
+        color: $color-8;
         font-weight: bold;
         transform: scaleX(0);
         animation: transformTitle 1.5s ease forwards;
         transform-origin: 150%;
+        
 
         @media screen and (max-width: 810px){
           font-size: 2rem;
@@ -121,12 +124,42 @@
         }
       }
 
+           h2 {
+        //DATE
+        font-size: 2rem;
+        margin-bottom: 12px;
+        font-family: 'Days One', sans-serif;
+        color: $redRC;
+        font-weight: bold;
+        transform: scaleX(0);
+        animation: transformTitle 1.5s ease forwards;
+        transform-origin: 150%;
+        
+
+        @media screen and (max-width: 810px){
+          font-size: 2rem;
+        }
+        @media screen and (max-width: 450px){
+          font-size: 1.2rem;
+        }
+
+        @keyframes transformTitle {
+          to {
+            transform: scaleX(1);
+          }
+        }
+      }
+
+
       p {
         margin-bottom: 30px;
         //Avril 2021
-        color: $redRC;
+        color: $color-2;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        font-style: italic;
+
+   
 
         @media screen and (max-width: 700px){
           margin: 0;
@@ -138,14 +171,14 @@
         &:after {
           //Carré gauche
           content: "";
-          height: 370px;
-          width: 600px;
+          height: 450px;
+          width: 1100px;
           background: $color-3;
-          border-radius: 25%;
-          
+          border-radius: 50%;
+
           position: absolute;
-          top: -50px;
-          left: 40px;
+          top: 580px;
+          left: 1570px;
           z-index: -10;
 
           @media screen and (max-width: 810px){
@@ -158,6 +191,7 @@
       
       li {
         font-size: 1.5rem;
+        color: $color-3;
 
         @media screen and (max-width: 700px){
           font-size: 1.1rem;
@@ -179,11 +213,14 @@
       }
 
       .img-container {
+        //photo
         border-radius: 5px;
         box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
         margin-top: 150px;
-        width: 600px;
-        height: 300px;
+        width: 700px;
+        height: 400px;
+        top: -10px;
+        left: -230px;
         overflow: hidden;
         position: relative;
         box-shadow: 6px 6px 0px $color-2;
@@ -255,6 +292,11 @@
         justify-content: center;
         color: $color-1;
         background: $color-2;
+        padding: 0px;
+        margin: 3px;
+        width: 260px;
+      height: 50px;
+  
 
         @media screen and (max-width: 410px){
           width: 100px;
@@ -269,12 +311,15 @@
     }
   }
   .random-circle {
-    position: absolute;
-    height: 5000px;
-    width: 400px;
-    background: $color-3;
+
+    // GRAND CERCLE
+    //position: absolute;
+     
+    height: 500px;
+    width: 500px;
+        background: $redRC;
     border-radius: 50%;
-    z-index: -1;
+    z-index: +1;
     animation: circleAnim 16s infinite alternate;
 
     @keyframes circleAnim {

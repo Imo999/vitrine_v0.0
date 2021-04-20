@@ -7,7 +7,7 @@ const ContactInfo = () => {
     <div className="contact-infos">
       <div className="address">
         <div className="content">
-          <h4>adresse</h4>
+          <h4>Adresse</h4>
           <p>3 rue des Hugeunots</p>
           <p>89330 - St Julien du Sault</p>
         </div>

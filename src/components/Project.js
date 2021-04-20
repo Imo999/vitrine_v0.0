@@ -63,11 +63,14 @@ const Project = (props) => {
     >
       <div className="project-content">
         <h1>{project.title}</h1>
-        <p>{project.date}</p>
+        <h2>{project.date}</h2>
         <ul className="languages">
           {project.languages.map((item) => {
             return <li key={item}>{item}</li>;
           })}
+          <br />
+          <p>{project.paraGraphe}</p>
+
         </ul>
       </div>
       <motion.div

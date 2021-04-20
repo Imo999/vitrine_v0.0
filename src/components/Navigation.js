@@ -11,9 +11,6 @@ const Navigation = () => {
         <NavLink to="/about" exact className="hover" activeClassName="nav-active">
           <li>About</li>
         </NavLink>
-        <NavLink to="/experience" exact className="hover" activeClassName="nav-active">
-          <li>Experience</li>
-        </NavLink>
         <li className="nav-portfolio">Project
           <ul className="nav-projects">
             <NavLink to="/project-1" activeClassName="nav-active" className="hover">

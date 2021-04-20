@@ -12,6 +12,10 @@
 
   <!-- Intégration Fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Intégration Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -19,11 +23,12 @@
   <div id="root"></div>
 
   <!-- lien pour les email ToDOO: -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript">
-
+    (function () {
+      emailjs.init("user_sfxpNF4POJxzSYrx77Gb2");
+    })();
   </script>
-  <script src="script.js"></script>
 </body>
 
 </html>

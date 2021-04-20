@@ -13,7 +13,7 @@
   &:before {
     content: '';
     position: absolute;
-    height: 370px;
+    height: 270px;
     width: 350px;
     border-radius: 50%;
     background: $color-3;
@@ -39,14 +39,14 @@
     
   }
   .nav-active {
-    color:$color-2;
+    color:$color-8;
     font-weight: bold;
   }
   ul:hover li:not(:hover) {
-    opacity: .5;
+    opacity: .8;
   }
   ul:hover li:hover {
-    color: $color-2;
+    color: $color-8;
     font-weight: bold;
 
   }
