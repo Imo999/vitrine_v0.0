@@ -3,7 +3,8 @@
 # ![project-1](./public/assets/img/projet-1.jpg)
 
 
-***Projet Vitrine_v0.0*** </br>
+# ***Projet Vitrine_v0.0*** </br>
+</br>
 Version v0.0 </br>
 Author : Imo999 </br>
 Date : 04/20/2021 </br>
