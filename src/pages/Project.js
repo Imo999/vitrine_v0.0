@@ -11,7 +11,7 @@ export const Project1 = () => {
       <div className="project">
         <Navigation />
         <Project projectNumber={0} />
-        <ButtonsBottom left={'/about'} right={'/project-2'} />
+        <ButtonsBottom left={'/'} right={'/project-2'} />
       </div>
     </main>
   )

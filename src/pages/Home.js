@@ -17,7 +17,7 @@ const Home = () => {
             <h2><DynamicText /></h2>
           </div>
         </div>
-        <ButtonsBottom right="/About" />
+        <ButtonsBottom right="/project-1" />
       </div>
     </div>
   )
