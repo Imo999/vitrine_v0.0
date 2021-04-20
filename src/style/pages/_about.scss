@@ -1,0 +1,108 @@
+.about {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color:$color-1  ;
+  z-index: -10;
+
+
+  h1 {
+    color: #fff;
+    margin-left: 825px;
+    margin-top: 70px;
+    padding: 2px;
+    font-size: 12px;
+      }
+
+  h2 {
+    color: #fff;
+    margin-left: auto;
+    margin-top: auto;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  p {
+    color: $redRC;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .navigation li {
+    color: $redRC;
+      }
+
+ li {
+  color: #fff;
+  list-style: square;
+  margin-left: 50px;
+  padding: 2px;
+  text-align: left;
+ }
+
+  .astuce {
+    color:$color-3;
+    text-align: center;
+  }
+    // Article
+  
+
+
+  .networkadmin {
+    background-color:$color-2;
+    margin-left: 220px;
+margin-right: 1120px;
+margin-top: 50px;
+  }
+
+  .leadfield {
+    margin-left:965px;
+    margin-right: 400px;
+    margin-top: -310px;
+
+    background-color: $color-2;
+  }
+
+  .transmissioneng{
+    background-color: $color-3;
+    margin-left: 50px;
+margin-right: 550px;
+  }
+  .accountmanager{
+    background-color: $color-4;
+        margin-top: -250px;
+
+      margin-left: 850px;
+margin-right: 450px;
+  }
+  .libre{
+    background-color: $color-11;
+    margin-left: 550px;
+margin-right: 550px;
+  }
+
+
+// .networkadmin {
+//     //Cadres
+//     background: $color-7;
+//     margin-left: 220px;
+//     margin-top: 25px;
+//     width: 500px;
+//     height: 1200px;
+//     z-index: 1;
+
+//     //Bordure
+//     border-radius: 3%;
+//     border: 0.30rem solid white;
+//     box-shadow: 0.75rem 0.75rem 0 $redRC; /* Ombre */
+    
+//     //Effect
+//     transform: translateX(-50%);
+//     transform: scale(0);
+//     animation: logoProject 2s ease forwards;
+//   }
+
+
+
+}
