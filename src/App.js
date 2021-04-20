@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Redirect, Route, Switch, useHistory, useLocation } from 'react-router-dom'
+import { Redirect, Route, Switch, useHistory } from 'react-router-dom'
 import Home from './pages/Home';
 import { Project1, Project2, Project3, Project4, Project5 } from './pages/Project';
 import Contact from './pages/Contact';
@@ -8,7 +8,7 @@ import { AnimatePresence } from 'framer-motion'
 // Import des page dans APP
 
 const App = () => {
-  const location = useLocation()
+  //const location = useLocation()
   const history = useHistory()
 
   //Scroll Effect
