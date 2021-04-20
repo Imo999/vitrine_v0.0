@@ -148,7 +148,7 @@ const ContactForm = () => {
       <input
         className="button hover"
         type="submit"
-        value="Submit"
+        value="submit"
         onClick={handleSubmit}
       />
       <p>“Build your own dreams or someone else will hire you to build theirs.” </p>

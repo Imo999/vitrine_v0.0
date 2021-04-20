@@ -230,9 +230,9 @@
     }
 
     h4 {
-      color: $color-7;
+      color: $color-11;
       font-size: 1.3rem;
-      font-weight: 200;
+      font-weight: bold;
       margin-bottom: 10px;
 
       @media screen and (min-width: 1200px){
@@ -242,12 +242,16 @@
     p {
       @media screen and (min-width: 1200px){
         font-size: 1.5rem;
+        color:$redRC;
+        font-weight: bold;
+
       }
     }
     .email,
     .phone {
       @media screen and (max-height: 640px){
         display: none;
+        
       }
     }
     .email .content p,
