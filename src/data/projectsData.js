@@ -46,7 +46,7 @@ export const projectsData = [
   {
     id: 5,
     title: "Sarahro Core [SARAHRO, SRO]",
-    date: "Septembre 2021 [Annoucement Collobaration]",
+    date: "Septembre 2021 [Annoucement Collobaration !]",
     languages: ["NodeJS", "Solidity", "JavaScript", "React"],
     paraGraphe: "Sarahro is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of 'stylax' (POS). Sarahro currently employs a simplified variant of scrypt.",
     infos:
