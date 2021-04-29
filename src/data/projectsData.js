@@ -17,7 +17,7 @@ export const projectsData = [
     languages: ["JavaScript", "NodeJS"],
     paraGraphe: "This program allows you to check your folders and files before launching your program.",
     infos:
-      "“The man who moves a mountain begging by carrying away small stones.” - Confucious -",
+      "“The man who moves a mountain begins by carrying away small stones.” - Confucious -",
     img: "./assets/img/projet-2.jpg",
     link: "https://github.com/Imo999/prog-check-load_v0.0",
   },
